@@ -1,11 +1,9 @@
 import Home from "./Components/Home/Home";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
-import Contact from './Components/Contact/Contact';
+import Contact from "./Components/Contact/Contact";
 
 function App() {
-  
-
   return (
     <>
       <Home />
@@ -13,7 +11,7 @@ function App() {
       <Skills />
       <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
