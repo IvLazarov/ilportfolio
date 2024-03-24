@@ -1,0 +1,82 @@
+@use '../../sass/variables' as *;
+
+.skills-container{
+    width: 100%;
+    height: 450px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    border: 1px solid $white;
+    width: 90%;
+    height: 220px;
+}
+
+.title{
+    border-bottom: 1px solid $white;
+    border-right: 1px solid $white;
+    font-weight: 400;
+    width: 30%;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.list{
+    width: 60%;
+    height: 152px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        width: 40%;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 300;
+        text-align:start;
+    }
+
+}
+
+@media(max-width: 600px){
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .list{
+        width: 90%;
+    }
+
+
+    .title{
+        padding-left: 0;
+        border:0;
+        text-align: center;
+    }
+}
+
+@media(max-width: 430px){
+    .title{
+        width: 50%;
+    }
+
+    .list{
+        div{
+
+            font-size: 18px;
+        }
+    }
+}
