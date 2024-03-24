@@ -1,3 +1,10 @@
+#My Web Portfolio
+
+My web portfolio where you can see some of my projects, and contact me
+for employment opportunities.
+
+Link to portfolio: https://ivan-lazarov-web-portfolio.netlify.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
