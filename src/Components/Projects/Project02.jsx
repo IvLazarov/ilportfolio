@@ -8,15 +8,15 @@ const Project02 = () => {
       <div className="project">
         <div className="project-info">
           <div className="project-date">
-            <div className="month">March</div>
-            <div className="year">2023</div>
+            <div className="month">June</div>
+            <div className="year">2024</div>
           </div>
 
           <div className="project-name">
-            <div className="name">Game Browser</div>
+            <div className="name">Game Browser V2</div>
             <div className="link">
               <Link
-                to="https://simple-game-browser.netlify.app/"
+                to="https://game-browser-v2.netlify.app/"
                 target="_blank"
               >
                 <FiArrowRight />
@@ -29,13 +29,14 @@ const Project02 = () => {
           <div className="project-description">
             <div className="sign">P-02</div>
             <div className="project-text">
-              A game browser application that enables users to search for
-              specific games by title, genre and platform.
+            A game browser that enables users to search games 
+            by name, genre, platform, and publsher. 
+            Light and dark mode available.
             </div>
           </div>
           <div className="project-image">
             <img
-              src="/project images/game-browser-app-img.png"
+              src="/project images/game-browser-v2.png"
               alt="project-image"
             />
           </div>
